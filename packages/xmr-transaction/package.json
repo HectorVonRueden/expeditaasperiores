@@ -1,0 +1,49 @@
+{
+	"name": "@xmr-core/xmr-transaction",
+	"version": "0.0.1",
+	"description": "Create Monero transactions and check their status",
+	"main": "lib/index.js",
+	"typings": "lib/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepublishOnly": "tsc -b ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MyCryptoHQ/@xmr-core/xmr-core.git"
+	},
+	"keywords": [
+		"monero",
+		"mymonero",
+		"typescript",
+		"ts",
+		"lightweight",
+		"lightwallet",
+		"wallet",
+		"crypto",
+		"script",
+		"utility",
+		"tool",
+		"xmr"
+	],
+	"author": "HenryNguyen5",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/MyCryptoHQ/@xmr-core/xmr-core/issues"
+	},
+	"dependencies": {
+		"@xmr-core/biginteger": "^0.0.1",
+		"@xmr-core/xmr-constants": "^0.0.1",
+		"@xmr-core/xmr-crypto-utils": "^0.0.1",
+		"@xmr-core/xmr-fast-hash": "^0.0.1",
+		"@xmr-core/xmr-money": "^0.0.1",
+		"@xmr-core/xmr-str-utils": "^0.0.1",
+		"@xmr-core/xmr-varint": "^0.0.1",
+		"@xmr-core/xmr-vendor": "^0.0.1",
+		"moment": "^2.22.2"
+	},
+	"devDependencies": {
+		"typescript": "^3.0.0"
+	},
+	"homepage": "https://github.com/MyCryptoHQ/@xmr-core/xmr-core#readme"
+}

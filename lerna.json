@@ -1,0 +1,20 @@
+{
+	"packages": [
+		"packages/*"
+	],
+	"command": {
+		"publish": {
+			"ignoreChanges": [
+				"test/**/*",
+				"*.md",
+				"scripts",
+				"lib",
+				"tslint.json",
+				"tsconfig.json"
+			]
+		}
+	},
+	"npmClient": "yarn",
+	"useWorkspaces": true,
+	"version": "0.0.1"
+}
